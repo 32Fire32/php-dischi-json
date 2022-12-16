@@ -46,3 +46,18 @@ header .container img {
 .disc img {
   width: 100%;
 }
+
+/* RESPONSIVE */
+
+/* Tablet e Desktop */
+@media screen and (max-width: 992px) {
+  .disc {
+    width: calc(100% / 2 - 40px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .disc {
+    width: calc(100% - 40px);
+  }
+}
