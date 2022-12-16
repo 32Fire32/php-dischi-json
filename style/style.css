@@ -8,6 +8,16 @@ body {
 header {
   background-color: #06131f;
   height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  background-color: #06131f;
+}
+
+header .container img {
+  height: 50px;
 }
 
 .container {
