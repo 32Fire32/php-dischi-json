@@ -14,6 +14,9 @@ header {
 
 header .container {
   background-color: #06131f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .container img {
@@ -47,6 +50,9 @@ header .container img {
   width: 100%;
 }
 
+.hide {
+  display: none;
+}
 /* RESPONSIVE */
 
 /* Tablet e Desktop */
