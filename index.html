@@ -27,9 +27,9 @@
           <div class="wrapped">
             <div class="disc" v-for="disc in discs">
               <img :src="disc.poster" :alt="disc.title" />
-              <h3>{{disc.title}}</h3>
-              <span>{{disc.author}}</span>
-              <h3>{{disc.year}}</h3>
+              <h5 class="mt-2">{{disc.title}}</h5>
+              <span class="my-2">{{disc.author}}</span>
+              <h5>{{disc.year}}</h5>
             </div>
           </div>
         </div>
