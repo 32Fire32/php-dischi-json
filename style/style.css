@@ -1,0 +1,36 @@
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+header {
+  background-color: #06131f;
+  height: 80px;
+}
+
+.container {
+  background-color: #1d2d3c;
+  margin: auto;
+}
+
+.wrapped {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.disc {
+  width: calc(100% / 3 - 40px);
+  background-color: #112030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+
+.disc img {
+  width: 100%;
+}

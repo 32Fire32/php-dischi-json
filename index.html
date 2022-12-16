@@ -21,12 +21,19 @@
   </head>
   <body>
     <div id="app">
-      <div class="container">
-        <h1>DISCHI</h1>
-        <ul>
-          <li v-for="disc in discs">{{disc.title}}</li>
-        </ul>
-      </div>
+      <header></header>
+      <main>
+        <div class="container">
+          <div class="wrapped">
+            <div class="disc" v-for="disc in discs">
+              <img :src="disc.poster" :alt="disc.title" />
+              <h3>{{disc.title}}</h3>
+              <span>{{disc.author}}</span>
+              <h3>{{disc.year}}</h3>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
     <!-- Bootstrap -->
     <script
